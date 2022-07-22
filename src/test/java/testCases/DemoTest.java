@@ -25,7 +25,7 @@ public class DemoTest {
     @BeforeTest
     public void startReport() {
         // initialize the HtmlReporter
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/" +testReport.html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/" +"testReport.html");
 
         //initialize ExtentReports and attach the HtmlReporter
         extent = new ExtentReports();
